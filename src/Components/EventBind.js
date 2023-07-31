@@ -10,14 +10,14 @@ class EventBind extends Component {
     }
 
     callmethod(){
-        console.log(this)
-         this.setState({message:"Goodbye!!!"})
+        console.log(this);
+       //  this.setState({message:"Goodbye!!!"})
     }
   render() {
     return (
         <>
       <div>{this.state.message}</div>
-      <button onClick={()=>this.callmethod()}>Click me</button>
+      <button onClick={this.callmethod}>Click me</button>
       </>
     )
   }
