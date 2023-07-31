@@ -8,7 +8,7 @@ function App() {
     <div className="App">
    
       <Greet name="gaurav" othername="nitisha"></Greet>
-      <GreetClass name="Nishant" othername="Snehal"></GreetClass>
+      <GreetClass name="Nishant Patil" othername="Snehal"></GreetClass>
       <EventBind passanything="anything"></EventBind>
     </div>
   );
